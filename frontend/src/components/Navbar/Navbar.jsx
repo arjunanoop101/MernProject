@@ -5,7 +5,7 @@ const Navbar = () => {
     const [menu,setMenu] = useState('Home')
   return (
     <div className='navbar'>
-      <h2 className='logo'>Healthify Me</h2>
+      <h2 className='logo'>Healthify </h2>
       <ul className="navbar-menu">
         <li onClick={()=>setMenu('Home')} className={menu==="Home"?"active":""}>Home</li>
         <li onClick={()=>setMenu('Menu')} className={menu==="Menu"?"active":""}>Menu</li>
