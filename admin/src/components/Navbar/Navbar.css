@@ -1,0 +1,15 @@
+.logo{
+    color: #EFA765;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .profile{
+    width: 50px;
+}
